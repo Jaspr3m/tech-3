@@ -1,0 +1,27 @@
+{
+  "name": "matching-app",
+  "version": "1.0.0",
+  "description": "matching app over koeien",
+  "license": "ISC",
+  "author": "Ivy Vo",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "minify": "postcss static/style.css > output.css",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "compression": "^1.8.0",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "multer": "^2.0.0"
+  },
+  "devDependencies": {
+    "cssnano": "^7.0.7",
+    "nodemon": "^3.1.10",
+    "postcss-cli": "^11.0.1"
+  }
+}
